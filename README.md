@@ -1,4 +1,4 @@
-# MSc Dissertation: Alternative Splicing Analysis
+# MSc Dissertation: Alternative Splicing Analysis (Scripts + Data)
 
 **Author:** B270551   
 **Programme:** MSc Bioinformatics  
