@@ -19,6 +19,21 @@ Core datasets and reference files used throughout the analysis:
 - `morales_supplementary_table6.txt` - Positive selection reference data from Morales et al. study
 - `shaw_ISG_data.txt` - ISG reference data from Shaw et al.
 
+### 📄 **parse_v4.py**
+Core data preprocessing script located in the main repository directory:
+
+**Function:**
+- Parses Ensembl GTF annotation files into a standardised tabular format
+- Extracts transcript-level information and aggregates by genomic loci
+- Quantifies number of isoforms per gene across different biotype categories
+- Generates the `ensembl_isoforms_v4.tsv` file 
+
+**Output Columns:**
+- Gene identifiers and biotype classifications
+- Total isoform counts per gene
+- Biotype-specific isoform counts (protein-coding, non-coding, retained intron, NMD, etc.)
+- Standardised gene names for cross-analysis compatibility
+
 ### 🧬 **positive_selection/**
 Analysis of alternative splicing in positively selected genes across mammalian clades:
 
